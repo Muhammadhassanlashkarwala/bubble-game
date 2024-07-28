@@ -41,12 +41,39 @@ html,body{
     /* background: red; */
     /* width: 10%; */
 }
+.elem h2{
+  font-weight: 500;
+  font-size: 22px;
+}
 .box{
     /* color: #000; */
     color: rgb(18, 119, 57);
 padding: 10px 20px;
 font-weight: 600;
-font-size: 25px;
+font-size: 22px;
 border-radius: 5px;
 background: #fff;
+}
+#pbtm{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background: black; */
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    width: 50px;
+    height: 50px;
+    background: rgb(72, 104, 72);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.bubble:hover{
+    background: rgb(50, 75, 50);
+    cursor: pointer;
 }
