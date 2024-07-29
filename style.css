@@ -16,7 +16,8 @@ html,body{
     align-items: center;
     justify-content: center;
     /* background: rgb(202, 238, 202); */
-    background-color: rgb(155, 184, 155);
+    /* background-color: rgb(155, 184, 155); */
+    background:     #209CEE    ;
 }
 #panel{
     overflow: hidden;
@@ -33,7 +34,8 @@ html,body{
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background: rgb(72, 104, 72);
+    /* background: rgb(72, 104, 72); */
+    background: #126eab ;
 }
 .elem{
     display: flex;
@@ -48,7 +50,8 @@ html,body{
 }
 .box{
     /* color: #000; */
-    color: rgb(18, 119, 57);
+    color: rgb(18, 85, 119);
+    /* background: #126eab ; */
 padding: 10px 20px;
 font-weight: 600;
 font-size: 22px;
@@ -74,12 +77,13 @@ background: #fff;
     justify-content:  center;
     width: 55px;
     height: 55px;
-    background: rgb(72, 104, 72);
+    /* background: rgb(72, 104, 72); */
+    background: #126eab;
     color: #fff;
     border-radius: 50%;
     font-weight: 500;
 }
 .bubble:hover{
-    background: rgb(50, 75, 50);
+    background: #044e7f;
     cursor: pointer;
 }
