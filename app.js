@@ -22,10 +22,11 @@ function runTimer() {
         }
         else{
             clearInterval(timerIns);
-            document.querySelector("#pbtm").innerHTML = `<h1>Game Over</h1>`
-            
+            document.querySelector("#pbtm").innerHTML = `<h1>Game Over <br> Your Total Score is : ${score}</h1> `
         }
+       
     }, 1000);
+ 
 }
 runTimer()
 
