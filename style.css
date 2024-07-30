@@ -60,6 +60,8 @@ background: #fff;
 }
 #pbtm{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     /* padding-left: 17px;
@@ -70,6 +72,10 @@ background: #fff;
     /* overflow: hidden; */
     height: calc(100% - 100px);
     /* background: black; */
+}
+#pbtm h1{
+    font-size: 60px;
+    color: #126eab;
 }
 .bubble{
     display: flex;
