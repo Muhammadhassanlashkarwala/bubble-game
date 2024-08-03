@@ -1,7 +1,14 @@
 let timer = 60;
 let score = 0;
 let hitRn = 0;
-
+function fn(){
+    var aud=document.getElementById("aud")
+    aud.play()
+}
+document.getElementById("str").addEventListener("click",()=>{
+    document.getElementById("demo").style.display = "none" 
+fn()
+})
 function makeBubbles() {
     let clutter = "";
 
