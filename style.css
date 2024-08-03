@@ -63,6 +63,7 @@ background: #fff;
         left: 43.5%;
         /* background-color: #126eab; */
         color: #126eab;
+        /* color: #209CEE; */
         border-radius: 50%;
         width: 250px;
         text-align: center;
@@ -106,8 +107,12 @@ background: #fff;
 
 @media (max-width: 500px) {
 
-   #demo{
-    
+   #demo button{
+    left: 23.5%;
+    width: 170px;
+    padding-left: 1.8vw;
+    font-size: 14vw;
+    height: 170px;
    }
 
     #main{
